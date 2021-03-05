@@ -1,6 +1,7 @@
+version: '3.7'
 services:
   details:
     build: .
-    image: ghcr.io/pinnop/details:master
+    image: ghcr.io/pinnop/bookinfo-details:dev
     ports:
       - "8080:8080"
